@@ -1,4 +1,8 @@
 
+# Recommended:
+# 	`$ CXX="clang++3.8"
+#
+
 CFLAGS = -std=c++1y -std=gnu++11 -stdlib=libc++ -Wall -Werror
 
 termq: build/main.o build/menu.o build/game.o build/Actor.o build/Player.o build/Enemy.o build/Item.o build/Coin.o build/Global.o

@@ -8,6 +8,8 @@
 Player::Player(Window &w) : Actor(&w) {
     setChar('@');
 
+    attr.LCK = (rand() % 3);  // Player luck 0 to 3
+
     setPosRand();
 }
 
